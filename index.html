@@ -11,15 +11,15 @@
 
 <body>
     <div class="container mb-4">
-        <div class="jumbotron">
+        <div class="jumbotron text-center">
             <h1> Train Schedule</h1>
             <h5>Heim Train Services</h5>
         </div>
         <!--Table-->
         <div class="card">
-            <div class="card-header text-white bg-primary">Current Train Schedule</div>
+            <div class="card-header text-white text-bold bg-primary">Current Train Schedule</div>
             <div class="card-body">
-                <table class="table table-hover train-schedule">
+                <table class="table table-hover text-center train-schedule">
                     <thead>
                         <tr>
                             <th>Train Name</th>
@@ -30,19 +30,12 @@
                         </tr>
                     </thead>
                     <tbody class="train-info">
-                        <tr>
-                            <td>Trenton Express</td>
-                            <td>Trenton</td>
-                            <td>20</td>
-                            <td>Time</td>
-                            <td>Many Minutes</td>
-                        </tr>
                     </tbody>
                 </table>
             </div>
         </div>
         <!--Add Train-->
-        <div class="card mt-4 mb-2">
+        <div class="card mt-4 mb-2 train-control">
             <div class="card-header text-white bg-primary">Add Train</div>
             <div class="card-body">
                 <!--Form-->
@@ -59,17 +52,16 @@
 
                     <div class="form-group">
                         <label for="firstTrainTime">First Train Time (HH:mm - military time)</label>
-                        <input type="text" class="form-control" id="train-time" placeholder="HH:mm">
+                        <input type="text"pattern="([0-1]{1}[0-9]{1}|20|21|22|23):[0-5]{1}[0-9]{1}" class="form-control" id="train-time" placeholder="HH:mm">
                     </div>
 
                     <div class="form-group">
                         <label for="frequency">Frequency(min)</label>
-                        <input type="text" class="form-control" id="train-frequency" placeholder="mm">
+                        <input type="number" min="0" class="form-control" id="train-frequency" placeholder="mm">
                     </div>
                     <button type="submit" class="btn btn-primary add-train">Submit</button>
                 </form>
             </div>
-
         </div>
 
 
