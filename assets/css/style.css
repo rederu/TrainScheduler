@@ -1,0 +1,54 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-image: url("../images/trainstation2.jpg");
+    /* Center and scale the image nicely */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron{
+    font-family: 'Audiowide', cursive;
+    text-shadow: 11px 9px 10px black;
+    padding-top:30px;
+    padding-bottom: 30px;
+    
+}
+
+.jumbotron h1{
+    font-size: 80px;
+    color: #aecadb;
+}
+
+.jumbotron h5{
+    color: #f5e7e8;
+}
+
+.current-time{
+    font-weight: bold;
+}
+
+.card{
+    background-color: rgb(255,255,255,0.6);
+}
+
+.card-header{
+    font-family: 'Audiowide', cursive;
+    background-color: rgb(0,123,255,0.68);
+}
+
+
+.table thead th{
+    vertical-align: top;
+    text-align: center;
+}
+
+
+.btn-danger{
+    padding: 0px 6px 0px 6px;
+}
