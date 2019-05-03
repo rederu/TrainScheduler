@@ -1,5 +1,5 @@
 # TrainScheduler
-Week 7 Homework
+Train Scheduler Application.
 
 <h2>About</h2>
 
@@ -8,4 +8,4 @@ Train schedule application that incorporates Firebase to host arrival and depart
 Also, the user is able to delete information from the Firebase database by clicking a button that will also delete the row selected.
 
 <h3>Live Demo</h3>
-https://github.com/rederu/TrainScheduler
+https://rederu.github.io/TrainScheduler
