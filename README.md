@@ -6,6 +6,9 @@ Train schedule application that incorporates Firebase to host arrival and depart
 
 Also, the user is able to delete information from the Firebase database by clicking a button that will also delete the row selected.
 
+<img src="https://i.imgur.com/uP2QiRW.png" width="75%">
+
+
 <h3>Technology Used in this app</h3>
 <ul>
   <li>HTML</li>
